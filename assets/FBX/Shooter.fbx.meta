@@ -1,0 +1,283 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ebe1821a-4473-4095-bd86-52aed6623e91",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "99d6c": {
+      "importer": "gltf-mesh",
+      "uuid": "ebe1821a-4473-4095-bd86-52aed6623e91@99d6c",
+      "displayName": "",
+      "id": "99d6c",
+      "name": "Scene-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 80
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6ec10": {
+      "importer": "gltf-mesh",
+      "uuid": "ebe1821a-4473-4095-bd86-52aed6623e91@6ec10",
+      "displayName": "",
+      "id": "6ec10",
+      "name": "Scene-1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 80
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3620d": {
+      "importer": "gltf-mesh",
+      "uuid": "ebe1821a-4473-4095-bd86-52aed6623e91@3620d",
+      "displayName": "",
+      "id": "3620d",
+      "name": "Scene-2.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 80
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cbffa": {
+      "importer": "gltf-mesh",
+      "uuid": "ebe1821a-4473-4095-bd86-52aed6623e91@cbffa",
+      "displayName": "",
+      "id": "cbffa",
+      "name": "Scene-3.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "06bb8": {
+      "importer": "gltf-animation",
+      "uuid": "ebe1821a-4473-4095-bd86-52aed6623e91@06bb8",
+      "displayName": "",
+      "id": "06bb8",
+      "name": "Booming.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.21666666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "62db5": {
+      "importer": "gltf-material",
+      "uuid": "ebe1821a-4473-4095-bd86-52aed6623e91@62db5",
+      "displayName": "",
+      "id": "62db5",
+      "name": "ShooterMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0bff9": {
+      "importer": "gltf-material",
+      "uuid": "ebe1821a-4473-4095-bd86-52aed6623e91@0bff9",
+      "displayName": "",
+      "id": "0bff9",
+      "name": "Lit.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8d04f": {
+      "importer": "gltf-scene",
+      "uuid": "ebe1821a-4473-4095-bd86-52aed6623e91@8d04f",
+      "displayName": "",
+      "id": "8d04f",
+      "name": "Shooter.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Booming",
+        "duration": 0.21666666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Booming",
+            "from": 0,
+            "to": 0.21666666865348816,
+            "wrapMode": 2,
+            "previousId": "06bb8"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "ebe1821a-4473-4095-bd86-52aed6623e91@99d6c",
+        "ebe1821a-4473-4095-bd86-52aed6623e91@6ec10",
+        "ebe1821a-4473-4095-bd86-52aed6623e91@3620d",
+        "ebe1821a-4473-4095-bd86-52aed6623e91@cbffa"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "ebe1821a-4473-4095-bd86-52aed6623e91@62db5",
+        "ebe1821a-4473-4095-bd86-52aed6623e91@0bff9"
+      ],
+      "scenes": [
+        "ebe1821a-4473-4095-bd86-52aed6623e91@8d04f"
+      ]
+    },
+    "materials": {
+      "ebe1821a-4473-4095-bd86-52aed6623e91@0bff9": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 1,
+        "_defines": [
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 188,
+              "g": 188,
+              "b": 188,
+              "a": 255
+            }
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}
