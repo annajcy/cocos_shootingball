@@ -1,3 +1,18 @@
 {
-  "__version__": "1.0.6"
+  "__version__": "1.0.6",
+  "layer": [
+    {
+      "name": "Cube",
+      "value": 524288
+    }
+  ],
+  "physics": {
+    "maxSubSteps": 2,
+    "autoSimulation": true,
+    "fixedTimeStep": 0.00416666666,
+    "gravity": {
+      "y": -10
+    },
+    "allowSleep": false
+  }
 }
